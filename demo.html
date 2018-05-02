@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Select7/select7.css">
+    <script type="text/javascript" src="Select7/select7.js"></script>
+    <title>Select7</title>
+</head>
+<body>
+    <div id="select7" class="select7_container">
+        <div class="select7_arrow">&#9662;</div>
+        <div class="select7_placeholder">Meme Review</div>
+        <select class="select7_select" onchange="add_selected_item(this, event);">
+            <option class="select7_hide" value="filler"></option>
+            <option value="option1">Hello World</option>
+            <option value="option2">Yes Mate</option>
+            <option value="option3">Ma Dude</option>
+        </select>
+        <div class="select7_items"></div>
+    </div>
+</body>
+</html>

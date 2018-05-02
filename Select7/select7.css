@@ -1,0 +1,97 @@
+.select7_container {
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 5px 5px 0 5px;
+    padding-right: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 30px;
+    user-select: none;
+}
+
+.select7_placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.445);
+    font-size: 14px;
+    position: absolute;
+    top: 45%;
+    left: 6px;
+    transform: translateY(-50%);
+}
+
+.select7_arrow {
+    position: absolute;
+    right: 10px;
+    vertical-align: middle;
+    font-size: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.select7_item {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0, .9);
+    padding:2px 4px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    user-select: none;
+    margin-bottom: 5px;
+    max-width: 99%;
+}
+
+.select7_content {
+    padding-right: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.select7_select {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.486);
+    color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 5px;
+}
+
+.select7_select > option {
+    background: rgba(0, 0, 0, 0.486);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    /* font-weight: bold; */ /* add this for bold options */
+}
+
+.select7_del {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+}
+
+.select7_del:hover {
+    cursor: pointer;
+}
+
+.select7_item:hover {
+
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+.select7_hide {
+    display:none;
+}
