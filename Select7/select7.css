@@ -37,7 +37,7 @@
     z-index: 1;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.8);
-    color: rgb(0, 0, 0, .9);
+    color: rgba(0, 0, 0, .9);
     padding:2px 4px;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,6 +53,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    color: rgba(0, 0, 0, .9);
 }
 
 .select7_select {
@@ -79,8 +80,8 @@
 
 .select7_del {
     position: absolute;
-    top: 2px;
-    right: 3px;
+    top: 4px;
+    right: 12px;
 }
 
 .select7_del:hover {
@@ -94,4 +95,20 @@
 
 .select7_hide {
     display:none;
+}
+
+.select7_x {
+    width: 4px;
+    height: 12px;
+    background-color: black;
+    position: absolute;
+    top: 0;    
+}
+
+.select7_x:first-child {
+    transform: rotate(45deg);
+}
+
+.select7_x:last-child {
+    transform: rotate(-45deg);
 }

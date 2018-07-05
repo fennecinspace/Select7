@@ -1,6 +1,6 @@
 # Select7
 a lightweight multi-selector, using only vanilla javascript.<br>
-easy to use. easy modify.><br>
+easy to use. easy to modify.<br>
 <div style="text-align: center;">
 <img src="preview/img1.png" style="width:500px;"><br>
 <img src="preview/img2.png" style="width:500px;"><br>
